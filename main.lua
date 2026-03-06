@@ -23,6 +23,7 @@ function love.keypressed(key)
     if key == "p" then holo:printState() end
     if key == "l" then holo:load("layout.lua") end
     if key == "k" then holo:save("layout.lua") end
+    if key == "y" then holo:toggleHelp() end
 
     if key == "r" then
         holo:onRTap()
