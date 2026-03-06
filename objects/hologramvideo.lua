@@ -171,7 +171,7 @@ function HologramVideo:draw()
         "Ayarlama",
         "",
         "M       : Düzenleme moduna girer",
-        "Arrow   : Merkezi ya da seçilen videoyu oynat",
+        "Oklar   : Merkezi ya da seçilen videoyu oynat",
         "Z/X     : Video ölçeklendir",
         "Q/E     : Seçilen videoyu döndür",
         "W/S     : Uzaklığı ayarla (bağlı)",
