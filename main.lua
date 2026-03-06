@@ -21,6 +21,7 @@ function love.keypressed(key)
     if key == "t" then holo:toggleWelded() end
     if key == "tab" then holo:selectNextSide() end
     if key == "p" then holo:printState() end
+--prints in the lovec cknsole
     if key == "l" then holo:load("layout.lua") end
     if key == "k" then holo:save("layout.lua") end
     if key == "y" then holo:toggleHelp() end
