@@ -13,7 +13,7 @@ function HologramVideo:init(video, dist, cropPercent, scale)
     self.sides = {"center","north", "south", "east", "west" }
     self.selectedSide = "north"
     self.showHelp = false
-    self._rTapCount = 0
+    self.rTapCount = 0
     local vw, vh = video:getWidth(), video:getHeight()
     cropPercent = cropPercent or 0.35
     local cropW = vw * cropPercent
