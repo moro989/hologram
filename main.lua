@@ -3,7 +3,7 @@ local video
 local holo
 
 function love.load()
-    video = love.graphics.newVideo("videos/video.ogv")
+    video = love.graphics.newVideo("videos/video.ogv") --sadece .ogv ler
     video:play()
     holo = HologramVideo:new(video, 250, 0.35, 1)
 end
