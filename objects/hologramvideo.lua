@@ -10,7 +10,7 @@ function HologramVideo:init(video, dist, cropPercent, scale)
     self.center = { x = 400, y = 300 }
     self.editMode = false
     self.welded = true
-    self.sides = {"center","north", "south", "east", "west" }
+    self.sides = {"north", "south", "east", "west" }
     self.selectedSide = "north"
     self.showHelp = false
     self.rTapCount = 0
